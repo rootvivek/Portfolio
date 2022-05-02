@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 function Footer() {
   return (
@@ -7,10 +9,8 @@ function Footer() {
             <div className="row">
                 <div className="col">
                     <h2 className="title py-5">Let's Connect</h2>
-                </div>
-                <div class="social-container">
-                </div>
-            </div>
+              </div>
+           </div>
         </div>
     </div>
   )
