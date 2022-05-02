@@ -8,10 +8,12 @@ function Footer() {
                 <div className="col">
                     <h2 className="title py-5">Let's Connect</h2>
                 </div>
+                <div class="social-container">
+                </div>
             </div>
         </div>
     </div>
   )
 }
 
-export default Footer
+export default Footer;

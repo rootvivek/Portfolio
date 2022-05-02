@@ -9,7 +9,7 @@ function Intro() {
             <div className="col-lg-12">
                 <div className="intro d-flex align-items-center">
                     <div className="intro-left col-lg-6">
-                        <h3>Hello there 👋🏼,</h3>
+                        <h3>Hello there 👋🏼</h3>
                         <h2 className="d-flex intro-name">I'm
                         <Typewriter className="dynamic-text "
                             options={{
