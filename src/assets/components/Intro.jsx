@@ -21,7 +21,7 @@ function Intro() {
                             />
                         </h2>
                         <h6 className="intro-subtitle mt-3">Currently designing @Microsoft.Previously @NASA, @Google, @Cleartrip, and @Augmentally. Recent graduate of MS HCI at Georgia Tech.</h6>
-                        <button type="button" class="btn btn-dark mt-4 px-3">Contact Us</button>
+                        <button type="button" class="btn btn-dark mt-4 px-3 py-2">Contact Us</button>
                     </div>
                     <div className="intro-right col-lg-6">
                         <img src={intro} className="intro-img" alt='intro-img' />
