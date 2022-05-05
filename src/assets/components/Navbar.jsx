@@ -14,19 +14,19 @@ function Navbar() {
             <div className="navbar-area">
               <ul className ="navbar-nav mb-2 mb-lg-0">
                 <li className ="nav-item">
-                  <Link className ="nav-link active" aria-current="page" to={""}>Home</Link>
+                  <Link className ="nav-link active" aria-current="page" to=''>Home</Link>
                 </li>
                 <li className ="nav-item">
-                  <Link className ="nav-link" to={""}>About Us</Link>
+                  <Link className ="nav-link" to='/About'>About Us</Link>
                 </li>
                 <li className ="nav-item">
-                  <Link className ="nav-link" to={""}>Contact Us</Link>
+                  <a className ="nav-link" href='https://drive.google.com/file/d/1lllq4SsXcLPnn8NtlQD5NRmeTYDMaprH/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a>
                 </li>
               </ul>
               </div>
           </div>
         </div>
-  </nav>
+   </nav>
   )
 }
 

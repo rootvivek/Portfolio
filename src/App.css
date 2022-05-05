@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a{
     text-decoration: none !important;
+}
+
+hr{
+    background: #e6e6e6;
 }
 
 ::selection {
@@ -47,6 +52,9 @@ a{
 }
 
 .intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 80vh;
 }
@@ -57,7 +65,12 @@ a{
 }
 
 .intro-name{
+    font-weight: 700;
     align-items: baseline;
+}
+
+.intro-subtitle{
+    letter-spacing: 0.8px;
 }
 
 .Typewriter{
@@ -70,11 +83,6 @@ a{
     -webkit-background-clip: text;
 }
 
-.main-title{
-    font-size: 38px;
-    font-weight: 700;
-}
-
 .project{
     text-align: start;
     background: #F7F7F7;
@@ -82,7 +90,14 @@ a{
     padding-bottom: 100px;
 }
 
+.project h1{
+    position: relative;
+    font-size: 38px;
+    font-weight: 700;
+}
+
 .project .project-img{
+    cursor: pointer;
     padding: 15px;
     align-items: center;
     display: flex;
@@ -93,22 +108,65 @@ a{
     width: 100%;
     height: 400px;
     align-items: center;
-    transition: all 0.3s ease-in-out;  
+    transition: all 0.2s ease-in-out;  
 }
   
   .project .project-img img:hover{
     cursor: pointer;
     transform: scale(1.020);
-    transition: all 0.4s ease-in;
+    transition: all 0.2s ease-in;
     border-radius: 15px;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 .subtitle-1{
-    
     margin-top: 14px;
     margin-bottom: 14px;
 }
 
+.social-icon>a{
+    color: #cf23cf;
+    margin-right: 2.2rem;
+}
+
+.footer-end p{
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-end span{margin: 5px;
+    color: #e25555;
+    font-size: 24px;
+}
 
 
+/* ///////  About-img //////// */
+
+.about{
+    margin-top: 5rem;
+}
+
+.about-img img{
+    border-radius: 5px;
+    width: 500px;
+    height: 550px;
+}
+
+.Hobbbies{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.resume{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.resume>h1{
+    font-weight: 700 ;
+}
