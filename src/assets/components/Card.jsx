@@ -7,7 +7,7 @@ function Card(props) {
       {props.details.map((value,index)=>(
         <div className="project-card d-flex justify-content-between my-5" key={index}>
             <div className="project-img col-lg-7">
-                <img src={value.img} alt="" />
+                <img className='rounded' src={value.img} alt="" />
             </div>
             <div className="project-title col-lg-4 py-4">
                 <h3 className='title py-2'>{value.title}</h3>
