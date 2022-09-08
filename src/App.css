@@ -148,11 +148,11 @@ hr{
     background: linear-gradient(to left,#B24592,#F15F79);
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 .project-btn:hover{
     color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 .subtitle-1{
