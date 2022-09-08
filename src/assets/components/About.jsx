@@ -1,6 +1,5 @@
 import React from "react";
 import about from "../img/about.jpg";
-// import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 function About() {
@@ -44,7 +43,6 @@ function About() {
         </div>
           </div>
         </div>
-        {/* <Footer/> */}
       </div>
   );
 }

@@ -7,7 +7,7 @@ function Intro() {
   return (
 <div className="gradient-background">
     <div className ="container">
-     <Navbar/>
+         <Navbar/>
         <div className ="row">
             <div className="col-lg-12">
                 <div className="intro">
