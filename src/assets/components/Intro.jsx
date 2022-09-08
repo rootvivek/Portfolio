@@ -1,5 +1,5 @@
 import React from 'react'
-import  intro from '../img/intro.gif'
+// import  intro from '../img/intro.gif'
 import Typewriter from 'typewriter-effect';
 import Navbar from './Navbar';
 
