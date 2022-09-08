@@ -88,20 +88,18 @@ hr{
     height: 80vh;
 }
 
-.intro-img{
-    height: auto;
-    width: 100%;
-}
-
-.intro h1{
-    font-size: 3.8rem;
-    font-weight: 700;
-    align-items: baseline;
+.intro-text{
+    display: block;
+    color: #fff;
+    font-size: 72px;
+    line-height: 88px;
 }
 
 .intro-subtitle{
+    margin-top: 32px;
+    color: #fff;
     letter-spacing: 0.8px;
-    line-height: 2rem;
+    line-height: 36px;
 }
 
 .arrow{

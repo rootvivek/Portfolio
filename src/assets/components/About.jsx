@@ -38,7 +38,7 @@ function About() {
             <h6>Masters in Computer Applications, Graphic Era University</h6>
             <p>Sep 2020 - Aug 2022</p>
             <h6>Bachelor in Computer Applications, Shriram Institute of Management & Technology</h6>
-            <p>Sep 2020 - Aug 2022</p>
+            <p>Sep 2017 - Aug 2020</p>
           </div>
         </div>
           </div>
