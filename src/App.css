@@ -89,6 +89,7 @@ hr{
 }
 
 .intro-text{
+    font-weight: 700;
     display: block;
     color: #fff;
     font-size: 72px;
@@ -98,7 +99,8 @@ hr{
 .intro-subtitle{
     margin-top: 32px;
     color: #fff;
-    letter-spacing: 0.8px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
     line-height: 36px;
 }
 
