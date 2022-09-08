@@ -14,8 +14,8 @@ function Card(props) {
                 <p className='subtitle-1'>{value.subtitle1}</p>
                 <p className='subtitle-2'>{value.subtitle2}</p>
                 <p className='subtitle-3'>{value.subtitle3}</p>
-                <p className='project-btn mt-4'>
-                    <Link className="project-btn h5" to={""}>Read More</Link>
+                <p className='card-btn mt-5'>
+                    <Link className="project-btn h5" to={""}>read more</Link>
                 </p>
              </div>  
         </div>
