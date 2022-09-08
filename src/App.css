@@ -19,15 +19,15 @@ hr{
     background-color: #eedd44;
 }
 
-.navbar .navbar-nav{
+.navbar{
     background-color: rgba(0, 0, 0, 0.09);
-    border-radius: 50px;
-    padding:  10px 10px 10px 10px;
+    border-radius: 45px;
+    padding:  15px 10px 15px 10px !important;
 }
 
 .navbar .navbar-area>ul>li{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .navbar .navbar-area>ul>li>a{
@@ -58,10 +58,10 @@ hr{
 }
 
 .gradient-background {
-    background: linear-gradient(25deg,#ca6817,#ea83f4,#a91b6c,#d13b84,#c07b02);
-    background-size: 300% 300%;
-    animation: gradient-animation 15s ease infinite;
-  }
+  background: linear-gradient(150deg,#d7be0b,#f917d3,#8ec910);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+}
 
   @keyframes gradient-animation {
     0% {
@@ -95,7 +95,7 @@ hr{
 
 .intro-subtitle{
     letter-spacing: 0.8px;
-    line-height: 1.6rem;
+    line-height: 2.4rem;
 }
 
 .Typewriter{
