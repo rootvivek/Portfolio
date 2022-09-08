@@ -25,12 +25,17 @@ hr{
     padding:  15px 10px 15px 10px !important;
 }
 
+.navbar-brand{
+    letter-spacing: 1px;
+}
+
 .navbar .navbar-area>ul>li{
     margin-left: 2px;
     margin-right: 2px;
 }
 
 .navbar .navbar-area>ul>li>a{
+    letter-spacing: 1px;
     font-size: 16px;
     font-weight: 500;
     padding-left: 20px !important;
@@ -152,7 +157,7 @@ hr{
 
 .project-btn:hover{
     color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
 }
 
 .subtitle-1{

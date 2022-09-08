@@ -50,8 +50,8 @@ function Footer() {
                     </div>
                     <div className="col-lg-8 footer-right">
                       <p className='font-weight-bold'>Thank you so much for visiting my portfolio! You can learn more about me here.</p>
-                      <p>I’m also happy to chat! Say ‘hello’ at my <a href="https://www.linkedin.com/in/vimal-kumar-3b5722147" target="_blank" rel="noreferrer">Linkedin</a> or my 
-                      <a href="mailto:rootvivek@gmail.com"> mail</a></p>
+                      <p>I’m also happy to chat! Say ‘hello’ at my <a href="https://www.linkedin.com/in/vimal-kumar-3b5722147" target="_blank" rel="noreferrer"><strong>Linkedin</strong></a> or my 
+                      <a href="mailto:rootvivek@gmail.com"><strong> mail</strong></a></p>
                     </div>
                   </div>
               </div>

@@ -10,7 +10,7 @@ function Intro() {
         <Navbar/>
         <div className ="row">
             <div className="col-lg-12">
-                <div className="intro">
+                <div className="intro pb-5">
                     <div className="intro-left col-lg-8">
                         <p className="text-light display-4">Namaste🙏</p>
                         <h1 className="d-flex intro-name text-light py-1">I'm {" "}
