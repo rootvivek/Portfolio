@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
 
 *{
     margin: 0;
@@ -89,17 +91,18 @@ hr{
 }
 
 .intro-text{
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     display: block;
     color: #fff;
-    font-size: 72px;
-    line-height: 88px;
+    font-size: 58px;
+    line-height: 68px;
 }
 
 .intro-subtitle{
     margin-top: 32px;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.6px;
     line-height: 36px;
 }
@@ -200,9 +203,14 @@ hr{
     margin-top: 5rem;
 }
 
+.about-right h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
 .about-right p{
-    line-height: 1.8rem;
-    letter-spacing: 1.0px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .about-img img{

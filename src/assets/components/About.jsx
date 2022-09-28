@@ -11,7 +11,7 @@ function About() {
             <img src={about} alt="#" />
           </div>
           <div className="col-lg-6 about-right">
-            <h2>👀 Hello, there👋</h2>
+            <h2>Hello, there</h2>
             <p className="about-data my-4">
               I'm Vimal Kumar and friends call me Vivek. I'm user interface designer. recently i completed Masters in Computer
               Applications degree at Graphic Era University, Dehradun.Solving problems via digital products has
