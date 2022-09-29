@@ -240,10 +240,14 @@ hr{
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+
+    .intro{
+    height: 65vh;
+}
     
     .intro-text{
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 32px;
+    line-height: 46px;
 }
  }
 
