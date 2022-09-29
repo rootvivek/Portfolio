@@ -55,16 +55,16 @@ hr{
     color: #fff !important;
   }
 
-  .navbar-toggler-icon{
+  /* .navbar-toggler-icon{
     background-image: url();
-  }
+  } */
 
 .nav-link:hover {
   cursor: pointer;
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.10);
   color: white !important;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1rem rgba(182, 141, 141, 0.05);
   transition: all 0.3s ease-in-out;
 }
 
@@ -239,9 +239,6 @@ hr{
 .resume>h1{
     font-weight: 700 ;
 }
-
-
-
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
