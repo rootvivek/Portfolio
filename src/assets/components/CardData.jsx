@@ -7,6 +7,8 @@ const CardData = [
         {
             img:pdata1,
             title : "Google - Design System for Ad Manager",
+            project1 : "uidaries",
+            project2 : "ux",            
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -14,6 +16,8 @@ const CardData = [
         {
             img:pdata2,
             title : "Google - Design System for Ad Manager",
+            project1 : "uidaries",
+            project2 : "ux",  
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -21,6 +25,8 @@ const CardData = [
         {
             img:pdata3,
             title : "Google - Design System for Ad Manager",
+            project1 : "uidaries",
+            project2 : "ux",  
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -28,6 +34,8 @@ const CardData = [
         {
             img:pdata4,
             title : "Google - Design System for Ad Manager",
+            project1 : "uidaries",
+            project2 : "ux",  
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",

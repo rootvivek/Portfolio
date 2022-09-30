@@ -7,13 +7,11 @@ function CardMain() {
        <div className="project">
           <div className="container overflow-hidden">
                 <div className="row">                   
-                    <div className="col">
                         <h1 className="main-title ps-3">Selected Works</h1>                             
                           <Card details = {CardData}/>
                     </div>
                 </div>
             </div>
-        </div>
   )
 }
 
