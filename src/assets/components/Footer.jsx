@@ -44,7 +44,7 @@ function Footer() {
                         </div>
                       </div>
                   <hr />
-                  <div className="footer-main my-4 d-flex">
+                  <div className="footer-main my-4">
                     <div className="col-lg-3 footer-left">
                       <h2><strong>Hello Again,👋</strong></h2>
                     </div>

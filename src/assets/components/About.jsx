@@ -6,7 +6,7 @@ function About() {
   return (
       <div className="container pt-4">
         <Navbar/>
-        <div className="about d-flex justify-content-between">
+        <div className="about">
           <div className="col-lg-5 about-img">
             <img src={about} alt="#" />
           </div>
