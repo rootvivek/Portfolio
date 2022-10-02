@@ -11,8 +11,8 @@ import {
 
 function Footer() {
   return (
-    <div className="container">
-        <div className="footer">
+    <div className="footer">
+        <div className="container">
             <div className="row">
                 <div className="col">
                     <div className="resume">
@@ -44,7 +44,7 @@ function Footer() {
                         </div>
                       </div>
                   <hr />
-                  <div className="footer-main my-4">
+                  <div className="footer-main my-5">
                     <div className="col-lg-3 footer-left">
                       <h2><strong>Hello Again,👋</strong></h2>
                     </div>

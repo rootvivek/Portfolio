@@ -4,25 +4,27 @@ import Navbar from "./Navbar";
 
 function About() {
   return (
+    <div className="gradient-background">
       <div className="container pt-4">
         <Navbar/>
         <div className="about">
-          <div className="col-lg-5 about-img">
-            <img src={about} alt="#" />
-          </div>
-          <div className="col-lg-6 about-right">
-            <h2>Hello, there</h2>
-            <p className="about-data my-4">
-              I'm Vimal Kumar and friends call me Vivek. I'm user interface designer. recently i completed Masters in Computer
-              Applications degree at Graphic Era University, Dehradun.Solving problems via digital products has
-              been my passion over the years.Currently, I’m based in Dehradun, but originally from the cultural
-              capital Uttarakhand, India.
-            </p>
-
-            <p className="about-data my-4">
-              In my free time, I love to draw 🎨, Learning to bake 🍪, and eat out with friends :) 🍜I'm always down for a chat.
-            </p>
-
+            <div className="col-lg-3 about-img">
+              <img src={about} alt="#" />
+            </div>
+            <div className="col-lg-9 about-right">
+              <h2>Hello, there</h2>
+              <p className="about-data my-4">
+                I'm Vimal Kumar and friends call me Vivek. I'm user interface designer. recently i completed Masters in Computer
+                Applications degree at Graphic Era University, Dehradun.Solving problems via digital products has
+                been my passion over the years.Currently, I’m based in Dehradun, but originally from the cultural
+                capital Uttarakhand, India.
+              </p>
+              <p className="about-data my-4">
+                In my free time, I love to draw 🎨, Learning to bake 🍪, and eat out with friends :) 🍜I'm always down for a chat.
+              </p>
+            </div>
+        </div>
+          
       <div className="about-edu">
         <div className="hobbies py-2">
         <h3 className="label">My Hobbies</h3>
@@ -41,9 +43,8 @@ function About() {
             <p>Sep 2017 - Aug 2020</p>
           </div>
         </div>
-          </div>
         </div>
-      </div>
+        </div>
   );
 }
 
