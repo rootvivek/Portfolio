@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 function About() {
   return (
-    <div className="gradient-background">
+    <div className="background">
       <div className="container pt-4">
         <Navbar/>
         <div className="about">
@@ -25,21 +25,21 @@ function About() {
             </div>
         </div>
           
-      <div className="about-edu">
-        <div className="hobbies py-2">
-        <h3 className="label">My Hobbies</h3>
-            <h2>
-              <span style={{ color: "#F1F1F1;" }}>
-                🎨 ♟ ✈ 🎮&nbsp; 📸&nbsp;{" "}
-              </span>
-            </h2>
-        </div>
+      <div className="about-edu py-5">
+        <div className="hobbies py-3">
+          <h1 className="title">My Hobbies</h1>
+              <h2>
+                <span style={{ color: "#F1F1F1;" }}>
+                  🎨 ♟ ✈ 🎮&nbsp; 📸&nbsp;{" "}
+                </span>
+              </h2>
+          </div>
         
-        <div className="about-edu-pg py-2">
-          <h3 className="label">🎓 Education</h3>
-            <h6>Masters in Computer Applications, Graphic Era University</h6>
+        <div className="about-edu-pg py-4">
+          <h1 className="title">🎓 Education</h1>
+            <h5>Masters in Computer Applications, Graphic Era University</h5>
             <p>Sep 2020 - Aug 2022</p>
-            <h6>Bachelor in Computer Applications, Shriram Institute of Management & Technology</h6>
+            <h5>Bachelor in Computer Applications, Shriram Institute of Management & Technology</h5>
             <p>Sep 2017 - Aug 2020</p>
           </div>
         </div>

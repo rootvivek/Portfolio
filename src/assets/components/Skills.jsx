@@ -14,7 +14,7 @@ function skills() {
   return (
     <div className="skills-set">
     <div className="container">
-        <h2 className="main-title py-5">Skills</h2>
+        <h2 className="title py-5">Skills</h2>
         <div className="row">
             <h1 className='text-center py-4'>Frontend Web Developer and design Tools</h1>
                 <div className="skills col-lg-6">
