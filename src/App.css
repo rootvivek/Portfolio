@@ -17,30 +17,14 @@ hr{
     background: #e6e6e6;
 }
 
+
 ::selection {
     background-color: #eedd44;
 }
 
-.background{
-  background: linear-gradient(40deg,#1cefff,#e5e5fd);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 .navbar{
-    background-color: rgba(0, 0, 0, 0.09);
+    background-color: #f8f9fa;
     border-radius: 46px;
     padding:  15px 10px 15px 10px !important;
 }
@@ -72,7 +56,7 @@ hr{
   }
 
   .nav-item a{
-    color: #fff !important;
+    color: #000 !important;
   }
 
 .navbar-light .navbar-toggler{
@@ -88,47 +72,37 @@ border: none !important;
   transition: all 0.3s ease-in-out;
 }
 
-.gradient-background {
-  background-image: linear-gradient(150deg, #e93f2e, #f41c4e, #f70071, #ef0096, #db1cbc, #cf4ad3, #c166e7, #b37df6, #c09efb, #d0bdfc, #e2dbfb, #f8f8f8);
-  background-size: 180% 180%;
-  animation: gradient-animation 12s ease infinite;
-}
-
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
 
 .intro{
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 80vh;
 }
 
 .intro-text{
+    display: block;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    display: block;
-    color: #fff;
-    font-size: 58px;
-    line-height: 72px;
+    color: #000;
+    font-size: 48px;
+    line-height: 60px;
 }
 
 .intro-subtitle{
-    margin-top: 32px;
-    color: #fff;
+    display: block;
+    margin-top: 18px;
+    color: #000;
     font-size: 20px;
     letter-spacing: 0.6px;
-    line-height: 36px;
+}
+
+.intro-avatar{
+    margin-top: 28px;
+    width: 200px;
+    height: 200px;
 }
 
 .arrow{
@@ -152,6 +126,13 @@ border: none !important;
     display: flex;
 }
 
+.label{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .title{
     z-index: 999;
     position: relative;
@@ -161,16 +142,6 @@ border: none !important;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-/* .title::before { 
-  z-index: -1;  
-  content: "";
-  position: absolute;
-  height: 15px;
-  width: 200px;
-  margin-top: 30px;
-  background-color: yellow;
-} */
 
 .project .project-img{
     display: flex;
@@ -196,15 +167,22 @@ border: none !important;
 
 .project-btn{
     color: #fff;
-    background: #0d6efd;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 30px 15px 30px;
     border-radius: 4px;
+    background-image: linear-gradient(to right, #4b6cb7 0%, #4a5d85  50%, #4b6cb7  100%);
+    transition: 0.4s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
 }
 
 .project-btn:hover{
-    color: rgba(255, 255, 255, 0.8);
+    background-position: right center;
+    text-decoration: none;
+    color: #fff;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
 }
+
+         
 
 .subtitle-1{
     margin-top: 14px;
@@ -221,6 +199,16 @@ border: none !important;
 .skills{
     display: flex;
     flex-wrap: wrap;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 4px) no-repeat,
+            linear-gradient(90deg, transparent 10%, #48abe0 100%);
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
     }
 
 .skills-main{
@@ -271,16 +259,19 @@ border: none !important;
 /* ///////  About-img //////// */
 
 .about{
-    background: rgba(255, 255, 255, 0.22);
+    background: #F7F7F7;
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     display: flex;
     margin-top: 5rem;
     padding: 40px;
+    align-items: center;
     justify-content: space-between;
-    border-radius: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .about-right h2{
@@ -295,22 +286,10 @@ border: none !important;
 }
 
 .about-img img{
-    border-radius: 50%;
+    border-radius: 19px;
     width: 90%;
     height: 90%;
     margin-bottom: 24px;
-}
-
-.label{
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.resume{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
 }
 
 .resume>h1{
@@ -322,6 +301,10 @@ border: none !important;
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
+    .title{
+    font-size: 32px;
+}
+
 .navbar{
     background-color: rgba(0, 0, 0, 0.09);
     border-radius: 5px;
@@ -329,17 +312,31 @@ border: none !important;
 }
 
     .intro{
-    height: 65vh;
+     justify-content: center;
+     align-items: center;
+     height: 70vh;
 }
     
     .intro-text{
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.intro-avatar{
+    height: 150px;
+    width: 150px;
+}
+
+.intro-subtitle{
+    text-align: center;
 }
 
 .arrow{
-    margin-top: -25px;
+    position: relative;
+    margin-bottom: -25px;
+    margin-left: 255px;
     height: 48px;
     width: 48px;
 }
@@ -387,9 +384,39 @@ border: none !important;
 }
 
 .about{
-    display: block;
+    display: flex;
     margin-top: 2rem;
-    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img{
+    width: 50%;
+    height: 50%;
+}
+
+.about-right h2{
+    text-align: center;
+}
+
+.about-edu-pg h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.resume>h1{
+    line-height: 44px;
+    font-weight: 600 ;
 }
 
  }

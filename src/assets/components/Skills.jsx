@@ -10,12 +10,13 @@ import adobe from '../img/adobe-xd-1.svg'
 import adobephotoshop from '../img/adobe-photoshop.svg'
 import sketch from '../img/sketch-2.svg'
 
-function skills() {
+function skills(props) {
   return (
     <div className="skills-set">
-    <div className="container">
+        <div className="container">
         <h2 className="title py-5">Skills</h2>
         <div className="row">
+            <div className="col-12"></div>
             <h1 className='text-center py-4'>Frontend Web Developer and design Tools</h1>
                 <div className="skills col-lg-6">
                     <div className="skills-main">

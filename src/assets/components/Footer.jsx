@@ -15,7 +15,7 @@ function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <div className="resume">
+                    <div className="resume my-3">
                         <h1>Like what you see??</h1>
                         <h1>
                           View my
