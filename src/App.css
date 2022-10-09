@@ -316,7 +316,7 @@ border: none !important;
      height: 70vh;
 }
     
-    .intro-text{
+.intro-text{
     text-align: center;
     font-size: 28px;
     font-weight: 600;
@@ -336,8 +336,8 @@ border: none !important;
     position: relative;
     margin-bottom: -25px;
     margin-left: 255px;
-    height: 48px;
-    width: 48px;
+    height: 56px;
+    width: 56px;
 }
 
 .project h1{
