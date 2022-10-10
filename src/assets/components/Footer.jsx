@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../resume.pdf";
+import vk_resume from "../resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBehance,
@@ -19,7 +19,7 @@ function Footer() {
                         <h1>Like what you see??</h1>
                         <h1>
                           View my
-                          <a href={resume} download="Vimal resume.pdf">
+                          <a href={vk_resume} download="Vimal resume.pdf">
                             {" "}
                             resume
                           </a>
