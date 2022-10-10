@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link,NavLink } from 'react-router-dom'
+import vk_resume from "../resume.pdf";
 
 function Navbar() {
   return (
@@ -19,7 +20,7 @@ function Navbar() {
                   <Link className ="nav-link" to='/About'>About</Link>
                 </li>
                 <li className ="nav-item">
-                  <a className ="nav-link" href='https://drive.google.com/file/d/1lllq4SsXcLPnn8NtlQD5NRmeTYDMaprH/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a>
+                  <a className ="nav-link" href={vk_resume} download="Vimal resume.pdf" target="_blank" rel="noreferrer">Resume</a>
                 </li>
               </ul>
               </div>

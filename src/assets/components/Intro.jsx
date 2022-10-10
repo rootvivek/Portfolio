@@ -3,7 +3,6 @@ import arrow from '../img/arrow.gif'
 import Navbar from './Navbar';
 import vk from '../img/vk-avatar.svg'
 
-
 function Intro() {
   return (
 <div className="gradient-background">
