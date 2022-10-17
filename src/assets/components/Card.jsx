@@ -19,7 +19,7 @@ function Card(props) {
                 <p className='subtitle-2'>{value.subtitle2}</p>
                 <p className='subtitle-3'>{value.subtitle3}</p>
                 <p className='card-btn mt-5'>
-                    <Link className="project-btn h5" to={""}>visit link</Link>
+                    <Link className="project-btn h5 me-4" to={{pathname: value.vlink}} target="_blank">Visit Link</Link>
                 </p>
              </div>  
         </div>
