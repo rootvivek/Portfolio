@@ -21,7 +21,6 @@ const CardData = [
             project1 : "Html",
             project2 : "Css",  
             project3 : "Javascript",  
-            project4 : "",  
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
