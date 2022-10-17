@@ -22,6 +22,10 @@ hr{
     background-color: #eedd44;
 }
 
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 2s;
+}
+
 
 .navbar{
     background-color: #f8f9fa;
@@ -101,8 +105,8 @@ border: none !important;
 
 .intro-avatar{
     margin-top: 28px;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 }
 
 .arrow{
