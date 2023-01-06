@@ -17,7 +17,7 @@ function skills(props) {
         <h2 className="title py-5">Skills</h2>
         <div className="row">
             <div className="col-12"></div>
-            <h1 className='text-center py-4'>Frontend Web Developer and design Tools</h1>
+            <h1 className='py-4'>Frontend Web Developer and design Tools</h1>
                 <div className="skills col-lg-6">
                     <div className="skills-main">
                         <img src={html} className="skills-img" alt='html' />
