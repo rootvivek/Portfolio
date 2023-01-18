@@ -6,4 +6,4 @@ function Project1() {
   )
 }
 
-export default Project1
+export default Project1;
