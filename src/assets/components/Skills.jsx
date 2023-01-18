@@ -14,10 +14,10 @@ function skills(props) {
   return (
     <div className="skills-set">
         <div className="container">
-        <h2 className="title py-5">Skills</h2>
+        <h2 className="title mt-5">Skills</h2>
         <div className="row">
             <div className="col-12"></div>
-            <h1 className='py-4'>Frontend Web Developer and design Tools</h1>
+            <h4 className='pb-5'>Frontend Development and design Tools</h4>
                 <div className="skills col-lg-6">
                     <div className="skills-main">
                         <img src={html} className="skills-img" alt='html' />

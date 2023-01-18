@@ -15,16 +15,16 @@ function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <div className="resume my-3">
-                        <h3>Like what you see??</h3>
-                        <h3>
+                    <div className="resume my-3 pt-5">
+                        <h4>Like what you see?</h4>
+                        <h4>
                           View my
                           <a href={vk_resume} download="Vimal resume.pdf">
                             {" "}
-                            resume
+                           <b>resume</b>
                           </a>
                           , follow me or contact me below
-                        </h3>
+                        </h4>
                         <div className="social-icon d-flex my-5">
                           <a href="https://github.com/rootvivek" className="github social" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faGithub} size="2x" />

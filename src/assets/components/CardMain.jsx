@@ -5,14 +5,10 @@ import 'animate.css';
 
 function CardMain() {
   return (
-       <div className="project">
-          <div className="container overflow-hidden">
-                <div className="row">                   
-                        <h1 className="title ps-3 animate__animated animate__lightSpeedInLeft">Explore my best projects</h1>                             
-                          <Card details = {CardData}/>
-                    </div>
-                </div>
-            </div>
+       <div className="project">                  
+           <h2 className="title mb-5 animate__animated animate__lightSpeedInLeft">Explore my best projects</h2>                             
+            <Card details = {CardData} />
+        </div>
   )
 }
 
