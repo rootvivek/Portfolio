@@ -224,6 +224,8 @@ border: none !important;
     align-items: center;
     border-radius: 8px;
     box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 4px, transparent 4px) 0% 0%/4px 8px no-repeat,
             radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/8px 8px no-repeat,
             radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/8px 8px no-repeat,
