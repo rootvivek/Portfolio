@@ -14,7 +14,7 @@ function skills(props) {
   return (
     <div className="skills-set">
         <div className="container">
-        <h2 className="title mt-5">Skills</h2>
+        <h2 className="t1">Skills</h2>
         <div className="row">
             <div className="col-12"></div>
             <h4 className='pb-5'>Frontend Development and design Tools</h4>

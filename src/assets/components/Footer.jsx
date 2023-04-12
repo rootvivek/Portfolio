@@ -15,8 +15,8 @@ function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <div className="resume my-3 pt-5">
-                        <h4>Like what you see?</h4>
+                    <div className="resume my-5">
+                        <h4><b>Like what you see?</b></h4>
                         <h4>
                           View my
                           <a href={vk_resume} download="Vimal resume.pdf">
@@ -45,8 +45,8 @@ function Footer() {
                       </div>
                   <hr />
                   <div className="footer-main my-5">
-                    <div className="col-lg-3 footer-left">
-                      <h2><strong>Hello Again,👋</strong></h2>
+                    <div className="col-lg-4 footer-left">
+                      <h3><strong>Thanks for stopping by!👋</strong></h3>
                     </div>
                     <div className="col-lg-8 footer-right">
                       <p className='font-weight-bold'>Thank you so much for visiting my portfolio! You can learn more about me here.</p>
@@ -58,7 +58,7 @@ function Footer() {
            </div>
         </div>
         <div className="footer-end py-3">
-          <p> © 2022 Designed & Developed by Vimal Kumar</p> 
+          <p> © 2023 Designed & Developed by Vimal Kumar</p> 
         </div>
     </div>
   )

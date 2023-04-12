@@ -5,25 +5,24 @@ function Card(props) {
   return (
       <>
       {props.details.map((value,index)=>(
-        <div className="up">
-          <div className="project-card justify-content-between" key={index}>
+        <div className="project-upper">
+          <div className="project-card border" key={index}>
               <div className="project-img">
                   <img src={value.img} alt="" />
               </div>
-              <div className="project-title pt-5">
-                <h3 className='label'>{value.title}</h3>
+              <div className="project-title">
+                <h4 className='t0'>{value.title}</h4>
                 <ul>
                   <li className='subtitle-1'>{value.subtitle1}</li>
                   <li className='subtitle-2'>{value.subtitle2}</li>
                   <li className='subtitle-3'>{value.subtitle3}</li>
                 </ul>
                   <p className='card-btn mt-5'>
-                    <Link className="project-btn h5 me-4" to={value.vlink} >Visit Link</Link>
+                    <Link className="project-btn h5" to={value.vlink} >Explore More</Link>
                   </p>
               </div>  
             </div>
-            <hr />
-        </div>
+         </div>
         )) }
       </>
   )
