@@ -3,6 +3,7 @@ import C1 from './C1';
 import CompData1 from './CompData1';
 import C2 from './C2';
 import Navbar from './Navbar';
+import p1 from '../img/p1/1.png'
 import p2 from '../img/p1/2.png'
 import p3 from '../img/p1/3.png'
 import p4 from '../img/p1/4.png'
@@ -33,6 +34,11 @@ function Project1() {
     <div className="project_main mt-4">
       <Navbar />
       <C1 details = {CompData1} />
+       <div className="pro14">
+          <div className="container py-5">
+              <img src={p1} alt="" srcset="" />
+           </div>
+       </div> 
       <div className="pro1">
           <div className="container">
             <div className="row justify-content-center">
@@ -207,6 +213,7 @@ function Project1() {
             heading="RAPID PROTOYPING"
             title="Using Figma, I Created Several Iterations of my Product."
             subtitle1="My first version was a chatbot-oriented approach. It however failed to provide the friendliness that I wanted to incorporate. In version 2, I kept the option for a chatbot but expanded to a voice-forward experience. This still felt clunky and In my third version, I took it out and developed my virtual assistant. View my final prototype in detail in my process deck."
+            img={f4}
             />
             <C2 
             heading="VISUAL DESIGN"
