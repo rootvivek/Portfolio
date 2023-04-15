@@ -5,16 +5,32 @@ function C1(props){
         <>
         {props.details.map((value,index)=>(
           <div className="comp-main">
-             <div class="sidenav border">
+            <div class="sidenav border">
                 <ul>
-                  <li>{value.li1}</li>
-                  <li>{value.li2}</li>
-                  <li>{value.li3}</li>
-                  <li>{value.li4}</li>
-                  <li>{value.li5}</li>
-                  <li>{value.li6}</li>
-                  <li>{value.li7}</li>
-                  <li>{value.li8}</li>
+                  <a href={value.link1}>
+                    <li>{value.li1}</li>
+                  </a>
+                  <a href={value.link2}>
+                    <li>{value.li2}</li>
+                  </a>
+                  <a href={value.link3}>
+                    <li>{value.li3}</li>
+                  </a>
+                  <a href={value.link4}>
+                    <li>{value.li4}</li>
+                  </a>
+                  <a href={value.link5}>
+                    <li>{value.li5}</li>
+                  </a>
+                  <a href={value.link6}>
+                    <li>{value.li6}</li>
+                  </a>
+                  <a href={value.link7}>
+                    <li>{value.li7}</li>
+                  </a>
+                  <a href={value.link8}>
+                    <li>{value.li8}</li>
+                  </a>
                 </ul>
             </div>
             <div className="container">

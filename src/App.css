@@ -340,6 +340,19 @@ border: none !important;
     background-attachment: scroll;
 }
 
+.test{
+    background-image: url(./assets/img/p1/hero.png);
+}
+
+.parallex{
+     min-height: 600px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .pro1{
     background-color: #f4f4f4;
 }

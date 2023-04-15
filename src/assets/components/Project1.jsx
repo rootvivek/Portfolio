@@ -31,15 +31,19 @@ import f18 from '../img/p1/f18.png'
 
 function Project1() {
   return (
-    <div className="project_main mt-4">
-      <Navbar />
+    <div className="project_main">
+      <div className="test parallex pt-3">
+        <Navbar />
+      </div>
       <C1 details = {CompData1} />
-       <div className="pro14">
+       <div className="pro-0">
           <div className="container py-5">
-              <img src={p1} alt="" srcset="" />
+            <div className="row justify-content-center">
+              <img className='w-75' src={p1} alt="" />
+            </div>
            </div>
        </div> 
-      <div className="pro1">
+      <div className="pro1" id="problem">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col d-flex justify-content-around py-5">
@@ -61,7 +65,7 @@ function Project1() {
             </div>
           </div>
       </div>
-      <div className="demo">
+      <div className="pro2">
         <div className="container">  
           <div className="row justify-content-center">  
             <div className="col-8">
@@ -103,11 +107,13 @@ function Project1() {
                         <p><b>Visualization -</b> create an exciting way to visualize the user’s progression.</p>
                         <p><b>Customized -</b> allow users to choose which content they want to be shown.</p>
                       </div>
-                      <C2
-                      heading="User Research" 
-                      title="Quantitative Surveys and Qualitative Interviews Defined my Users and Identified User Needs and Struggles."
-                      subtitle1="The surveys were completed via a google form. There were a total of 127 participants, mostly consisting of teenagers and college students. The interviews were completed in 30-minute intervals and included two students, one young adult, one parent, one social worker."
-                      />
+                      <div className="research" id='research'>
+                        <C2
+                        heading="User Research" 
+                        title="Quantitative Surveys and Qualitative Interviews Defined my Users and Identified User Needs and Struggles."
+                        subtitle1="The surveys were completed via a google form. There were a total of 127 participants, mostly consisting of teenagers and college students. The interviews were completed in 30-minute intervals and included two students, one young adult, one parent, one social worker."
+                        />
+                      </div>
                          <div className="row">
                            <div className="col-6">
                               <h4 className='head-b'>1.Social Struggle</h4>
@@ -131,7 +137,7 @@ function Project1() {
                 </div>
               </div>
       </div>
-      <div className="pro3 pro1 py-5">
+      <div className="pro3 pro1 py-5" id="goals" >
         <div className="container">
            <div className="row">
             <h4 className='head-b pt-5'>Project Goals</h4>
@@ -172,7 +178,7 @@ function Project1() {
           </div>
         </div>
       </div>
-      <div className="pro5 my-5">
+      <div className="pro5 my-5" id="personas">
         <div className="container">
           <div className="row justify-content-center">
            <div className="col-8 d-flex justify-content-around py-5">
@@ -200,7 +206,7 @@ function Project1() {
           </div>
         </div>
       </div>
-      <div className="pro7 my-5">
+      <div className="pro7 my-5" id="proccess">
         <div className="container">
           <div className="row justify-content-center">
            <div className="col-8 py-5">
@@ -235,12 +241,14 @@ function Project1() {
                 <img className='w-80' src={f7} alt="" srcset="" />
               </div>
             </div>
-            <C2 
-            heading="THE USER EXPERIENCE"
-            title="A Unique Perspective"
-            subtitle1="To get deeper into the ability of the application, I wanted to highlight an extreme user and go through his user flows."
-            subtitle2="I’m highlighting Warren to showcase the features you would otherwise see. Warren has a rather interesting use case due to his impaired vision and his need to multitask. In this instance, Warren will choose to connect to his TV to satisfy both his needs."
-            />
+           <div className="ux" id='ux'>
+               <C2 
+                heading="THE USER EXPERIENCE"
+                title="A Unique Perspective"
+                subtitle1="To get deeper into the ability of the application, I wanted to highlight an extreme user and go through his user flows."
+                subtitle2="I’m highlighting Warren to showcase the features you would otherwise see. Warren has a rather interesting use case due to his impaired vision and his need to multitask. In this instance, Warren will choose to connect to his TV to satisfy both his needs."
+                />
+           </div>
             <C2 
             title="User Journey"
             subtitle1="This Journey tracks Warren's usage of the application along with his emotions. The application adapts to his feelings to allow for a safe and comfortable space to share his thoughts."
@@ -253,8 +261,8 @@ function Project1() {
       <div className="pro8 pro1 my-5">
         <div className="container">
           <div className="row justify-content-center">
-           <div className="col-8 d-flex py-5">
-              <div className="col">
+           <div className="col-10 d-flex justify-content-center py-5">
+              <div className="col-5">
                   <C2
                   heading="INCORPERATING MY GOALS"
                   title="To ensure my goals were met, I incorporated them into the different depths of my solution" />
@@ -262,14 +270,14 @@ function Project1() {
                   <p><span className='fw-bold'>Second level -</span>a divergence of the original path (connection to another device) that allows for convenience.</p>
                   <p><span className='fw-bold'>Third level -</span>a selection that is made by the user that customizes and strengthens companionship with VIRA.</p>
                   </div>
-                  <div className="col">
+                  <div className="col-5 pt-5">
                     <img src={f9} alt="" srcset="" />
                   </div>
                 </div>
             </div>
         </div>
       </div> 
-      <div className="pro9 my-5">
+      <div className="pro9 my-5" id='solutions'>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-10 d-flex justify-content-around py-5">
@@ -399,7 +407,7 @@ function Project1() {
               </div>  
             </div> 
         </div>
-        <div className="pro18 my-5">
+        <div className="pro18 my-5" id='takeaways'>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-10 d-flex justify-content-between">
