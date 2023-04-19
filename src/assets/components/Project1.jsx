@@ -231,7 +231,7 @@ function Project1() {
             subtitle1="The Initial visual explorations were inspired by designs and colors from dribble and Pinterest. Initially, I was focused on creating an aesthetic design but the following explorations did not communicate the simplicity of the application I needed to make sure to not overdesign. After several more iterations, I decided to go with a royal blue color palette to best evoke my emotional connection. The color represents compassion and support and creates a calm and soothing emotional connection while the teal highlights visual elements."
             img={f5}
             />
-            <C2 
+            <C2
             heading="Type and Color"
             subtitle1="I decided to go with a purple-blue color palette to best evoke my emotional connection. The color represents compassion and support and creates a calm and soothing emotional connection while the teal highlights visual elements."
             subtitle2="Poppins has monolinear and geometric letterforms making it great for headlines. It has a modern, playful, but professional feel."
