@@ -1,5 +1,5 @@
-import cover1 from '../img/p1/cover1.png'
-import cover2 from '../img/p2/cover2.png'
+import cover1 from '../img/p1/cover.png'
+import cover2 from '../img/p2/cover.png'
 
 const CardData = [
         {
