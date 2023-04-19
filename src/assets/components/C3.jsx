@@ -4,10 +4,10 @@ function C3() {
   return (   
     <>
         <button class="btn btn-sm btn-primary rounded-circle position-fixed bottom-0 end-0 translate-middle d-none" onclick="scrollToTop()" id="back-to-up">
-      <i class="fa fa-arrow-up" aria-hidden="true"></i>
-    </button>
+          <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
     
-      <script>
+      {/* <script>
       window.onscroll = () => {
             toggleTopButton();
           }
@@ -23,7 +23,7 @@ function C3() {
               document.getElementById('back-to-up').classList.add('d-none');
             }
           }
-    </script>
+    </script> */}
     </>
 
   )
