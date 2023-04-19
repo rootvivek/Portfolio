@@ -1,4 +1,5 @@
-import cover1 from '../img/p1/Cover.png'
+import cover1 from '../img/p1/cover.png'
+import cover2 from '../img/p2/cover.png'
 
 const CardData = [
         {
@@ -10,8 +11,8 @@ const CardData = [
             vlink :  '/Project1'
         },
         {
-            img:"",
-            title : "Speech Recognization",
+            img:cover2,
+            title : "Investogram",
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",

@@ -1,26 +1,38 @@
 import React from 'react'
+import {useEffect} from 'react';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 import CompData2 from './CompData2';
 import C1 from './C1';
 import C2 from './C2';
+import p1 from '../img/p2/p2-1.png'
 import p2 from '../img/p2/p2-2.png'
 import p3 from '../img/p2/p2-3.png'
 import p4 from '../img/p2/p2-4.png'
 import p5 from '../img/p2/p2-5.png'
 import p6 from '../img/p2/p2-6.png'
+import p7 from '../img/p2/p2-7.png'
+import p8 from '../img/p2/p2-8.png'
+import p9 from '../img/p2/p2-9.png'
+import p10 from '../img/p2/p2-10.png'
+
 
 
 function Project2() {
+   useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   return (
     <div className="project_main">
-      <div className="pro1-cover parallex pt-3">
+      <div className="pro2-cover parallex pt-3">
         <Navbar />
       </div>
       <C1 details = {CompData2} />
-       <div className="pro-0">
-          <div className="container py-5">
+       <div className="pro-0 pb-5">
+          <div className="container">
             <div className="row justify-content-center">
-              <img className='w-75' src={p2} alt="" />
+              <img className='w-75' src={p1} alt="" />
             </div>
            </div>
        </div> 
@@ -115,27 +127,17 @@ function Project2() {
                       title="User Personas"
                       subtitle1="Now that I know our audience I need to empathize with them while they begin their Insurance experience. I followed along on the journey discovering the frustrations and successes. I simplified their journey into stages that allowed me to understand what their pain points might be and how I can make this a more enjoyable experience."
                       />
+                      <div className="w-100">
+                        <img src={p4} alt="" srcset="" />
+                      </div>
+                       <C2
+                          title="Task Analysis and Userflows"
+                          subtitle1="I know my audience and have defined our personas. I’ve been with them while they ride a roller coaster of emotions. Now I need to optimize the flows so they can accomplish their goals as efficiently as possible. With our personas goals in mind, I created three flows breaking down each action into a step. With this laid out, I optimized the task into an intuitive, streamlined process to take our protagonists from A-Z as quickly and painlessly as possible."
+                          />
                     </div>
                  </div>
               </div>
           </div>            
-            <div className="pro3">
-                <div className="container">
-                  <img src={p4} alt="" srcset="" />
-                  </div>
-            </div>
-            <div className="pro4">
-                <div className="container">  
-                    <div className="row justify-content-center">  
-                        <div className="col-8">
-                          <C2
-                          title="Task Analysis and Userflows"
-                          subtitle1="I know my audience and have defined our personas. I’ve been with them while they ride a roller coaster of emotions. Now I need to optimize the flows so they can accomplish their goals as efficiently as possible. With our personas goals in mind, I created three flows breaking down each action into a step. With this laid out, I optimized the task into an intuitive, streamlined process to take our protagonists from A-Z as quickly and painlessly as possible."
-                          />
-                        </div>
-                      </div>
-                    </div>
-            </div>
             <div className="pro5">
                 <div className="container">
                   <img src={p5} alt="" srcset="" />
@@ -170,10 +172,62 @@ function Project2() {
                       </div>
                     </div>
             </div>
-            <div className="pro7">
-                <div className="container">
-                  <img src={p6} alt="" srcset="" />
+            <div className="pro7 pro1">
+                  <img src={p8} alt="" srcset="" />
+            </div>
+            <div className="pro8">
+                <div className="container">  
+                    <div className="row justify-content-center">  
+                        <div className="col-8">
+                          <C2
+                          title="Refining the Design"
+                          subtitle1="I received relatively positive feedback from our usability testing and minimal changes were necessary. I felt comfortable with the structure of the app and moving on to the UI portion of the project. I accomplished this by creating a design system that I could add to as I made my way through the UI of the application. I kept both fluid until I was sure about a design decision."
+                          subtitle2="I made sure that all of my choices promoted accessibility so all users have a consistent, pleasant, and positive experience regardless of limitations they may have. One of the ways I achieved this was confirming that my color choices met the contrast ratio set by WCAG."
+                          />
+                        </div>
+                      </div>
+                    </div>
+            </div>
+            <div className="pro9 pro1">
+               <img src={p9} alt="" srcset="" />
+            </div>
+            <div className="pro10">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-10 d-flex justify-content-around py-5">
+                    <div className="col-6">
+                      <C2
+                      heading=""
+                      title="UI Design"
+                      subtitle1= "I wanted the overall look and feel to be modern with sample white space. This allows the insurance plan distributors and details of the plan to really become the focal point which is something our users frequently expressed."
+                      subtitle2="Our palette is classic utilizing gray tones and a bright accent color that works as our CTA and for secondary important information" />
+                      </div>
+                      <div className="col-3">
+                        <img src={p7} alt="" srcset="" />
+                      </div>
                   </div>
+                </div>
+              </div>
+            </div> 
+            <div className="pro11">
+                <div className="container">  
+                    <div className="row justify-content-center">  
+                        <div className="col-8">
+                          <C2
+                          title="Final Thought"
+                          subtitle1="Throughout this process I learned a lot about user research and testing, listening to our participants and making sure they felt seen and heard. Our potential users were the driving force behind this project and I feel their voice is represented in the final product and am comfortable they would enjoy using this app to reach their online insurance purchase goals."
+                          subtitle2="One of my biggest takeaways was to not be so married to an idea or design that I was hesitant to change it. The end result is very much a product of iteration, often taking 2 steps forward only to revisit a previous step. This was never frustrating but was something I chose to embrace as part of the discovery stage and the final product is better for it."
+                          subtitle3="If you would like to hear more about my process or this project, please get in touch. I would love to speak with you."
+                          />
+                        </div>
+                      </div>
+                    </div>
+            </div>
+            <div className="pro12 pro1">
+              <img src={p10} alt="" srcset="" />
+            </div>
+            <div className="goback">
+              <Link className ="h4" aria-current="page" to='/'>Finish! Go Back To All Projects →</Link>
             </div>
           </div>
   )

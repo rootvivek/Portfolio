@@ -5,7 +5,7 @@ function C1(props){
         <>
         {props.details.map((value,index)=>(
           <div className="comp-main">
-            <div class="sidenav border">
+            <div className="sidenav border">
                 <ul>
                   <a href={value.link1}>
                     <li>{value.li1}</li>

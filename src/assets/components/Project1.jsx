@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 import C1 from './C1';
 import CompData1 from './CompData1';
 import C2 from './C2';
@@ -30,6 +31,9 @@ import f18 from '../img/p1/f18.png'
 
 
 function Project1() {
+   useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div className="project_main">
       <div className="pro1-cover parallex pt-3">
@@ -143,17 +147,17 @@ function Project1() {
             <h4 className='head-b pt-5'>Project Goals</h4>
             <h4><b>What Do I Want to Accomplish With Projects?</b></h4>
             <div className="col-4 my-4">
-              <img className='pro3-img' src={p4} alt="" srcset="" />
+              <img className='pro3-img' src={p4} alt="" />
               <h4 className='head-b'>Inclusivity</h4>
               <p>I want to create an experience that is transparent to all users. Therefore, the app will Incorporate standards that allow all users to use the app without hindering usability. </p>
             </div>
             <div className="col-4 my-4">
-              <img className='pro3-img' src={p5} alt="" srcset="" />
+              <img className='pro3-img' src={p5} alt=""/>
               <h4 className='head-b'>Convenience</h4>
               <p>Due to my wide range in the audience, I want users to access the application on multiple devices wherever and whenever. Therefore, VIRA is flexible to your space.</p>
             </div>
             <div className="col-4 my-4">
-              <img className='pro3-img' src={p6} alt="" srcset="" />
+              <img className='pro3-img' src={p6} alt=""/>
               <h4 className='head-b'>Companionship</h4>
               <p>83% of interviewees found themselves becoming more reclusive. Therefore, I want to create an experience that will empathize with human emotions through user-friendly visuals and interactions.</p>
             </div>
@@ -195,13 +199,13 @@ function Project1() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <img src={f1} alt="" srcset="" />
+              <img src={f1} alt=""/>
             </div>
             <div className="col">
-              <img src={f2} alt="" srcset="" />
+              <img src={f2} alt=""/>
             </div>
             <div className="col">
-              <img src={f3} alt="" srcset="" />
+              <img src={f3} alt=""/>
             </div>
           </div>
         </div>
@@ -235,10 +239,10 @@ function Project1() {
             />
             <div className="row">
               <div className="col">
-              <img className='w-80' src={f6} alt="" srcset="" />
+              <img className='w-80' src={f6} alt=""/>
               </div>
               <div className="col">
-                <img className='w-80' src={f7} alt="" srcset="" />
+                <img className='w-80' src={f7} alt=""/>
               </div>
             </div>
            <div className="ux" id='ux'>
@@ -271,7 +275,7 @@ function Project1() {
                   <p><span className='fw-bold'>Third level -</span>a selection that is made by the user that customizes and strengthens companionship with VIRA.</p>
                   </div>
                   <div className="col-5 pt-5">
-                    <img src={f9} alt="" srcset="" />
+                    <img src={f9} alt=""/>
                   </div>
                 </div>
             </div>
@@ -289,7 +293,7 @@ function Project1() {
                   subtitle2="During the process, the users can also choose to pair any nearby devices to quickly access later." />
                   </div>
                   <div className="col-3">
-                    <img src={f10} alt="" srcset="" />
+                    <img src={f10} alt=""/>
                   </div>
               </div>
             </div>
@@ -297,7 +301,7 @@ function Project1() {
       </div> 
       <div className="pro10 pro1">
         <div className="container py-5">
-              <img src={f11} alt="" srcset="" />
+              <img src={f11} alt=""/>
            </div>
        </div>
        <div className="pro11 my-5">
@@ -305,7 +309,7 @@ function Project1() {
           <div className="row justify-content-center">
            <div className="col-10 d-flex justify-content-around align-items-center py-5">
                   <div className="col-3">
-                    <img src={f12} alt="" srcset="" />
+                    <img src={f12} alt=""/>
                   </div>
                   <div className="col-6">
                     <C2
@@ -319,7 +323,7 @@ function Project1() {
        </div>
        <div className="pro12 pro1">
           <div className="container py-5">
-              <img src={f13} alt="" srcset="" />
+              <img src={f13} alt=""/>
            </div>
        </div> 
        <div className="pro13 my-5">
@@ -335,7 +339,7 @@ function Project1() {
                   subtitle3="The initial onboarding process should make it, so existing devices connect instantaneously since it was previously paired." />
                   </div>
                   <div className="col-3">
-                    <img src={f14} alt="" srcset="" />
+                    <img src={f14} alt=""/>
                   </div>
               </div>
             </div>
@@ -343,7 +347,7 @@ function Project1() {
       </div> 
       <div className="pro14 pro1">
           <div className="container py-5">
-              <img src={f15} alt="" srcset="" />
+              <img src={f15} alt=""/>
            </div>
        </div> 
        <div className="pro15 my-5">
@@ -364,7 +368,7 @@ function Project1() {
                               <p>We could harness AI to select the best IxD experience given what we know about the customer and how he or she is using the app.</p>
                             </div>
                             <div className="col-6">
-                              <img src={f16} alt="" srcset="" />
+                              <img src={f16} alt=""/>
                             </div>
                       </div>
                 </div>
@@ -382,7 +386,7 @@ function Project1() {
                       subtitle1="One of the tools Warren uses to cope with his mental distress. Being more conscientious of his mood, Warren can better control his life's choices, take educated health decisions, mitigate or eliminate adverse mood causes, and achieve a higher quality of life." />
                   </div>
                   <div className="col-6">
-                     <img className='pt-5' src={f17} alt="" srcset="" />
+                     <img className='pt-5' src={f17} alt=""/>
                   </div>
                </div>
              </div>
@@ -393,7 +397,7 @@ function Project1() {
             <div className="row justify-content-center">
               <div className="col-10 d-flex justify-content-between">
                   <div className="col-6">
-                     <img className='pt-5' src={f18} alt="" srcset="" />
+                     <img className='pt-5' src={f18} alt=""/>
                   </div>
                    <div className="col-5">
                      <C2
