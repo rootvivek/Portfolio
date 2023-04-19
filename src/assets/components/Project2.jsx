@@ -188,9 +188,6 @@ function Project2() {
                       </div>
                     </div>
             </div>
-            <div className="pro9 pro1">
-               <img src={p9} alt="" srcset="" />
-            </div>
             <div className="pro10">
               <div className="container">
                 <div className="row justify-content-center">
@@ -209,6 +206,9 @@ function Project2() {
                 </div>
               </div>
             </div> 
+              <div className="pro9 pro1">
+               <img src={p9} alt="" srcset="" />
+            </div>
             <div className="pro11">
                 <div className="container">  
                     <div className="row justify-content-center">  

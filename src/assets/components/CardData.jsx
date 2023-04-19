@@ -25,15 +25,7 @@ const CardData = [
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             vlink : "/Project3",
-        },
-        {
-            img:"cover2",
-            title : "Google - Design System for Ad Manager",
-            subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            vlink : "/Project4",
-        },
+        }
     ]
 
     export default CardData;
