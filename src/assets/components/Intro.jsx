@@ -11,9 +11,9 @@ function Intro() {
         <div className ="row">
             <div className="col-12">
                 <div className="intro animate__animated animate__fadeInUp">
-                        <h2 className="intro-text">Hello, I'm Vimal Kumar.</h2>
-                        <h2 className="intro-text">UI Designer and Frontend Web Developer.</h2>
-                        <h5 className="intro-subtitle">I design and code beautifully simple things, and I love what I do.</h5>
+                        <h2 className="intro-text">From code to canvas,</h2>
+                        <h2 className="intro-text"> I'm Vimal Kumar.</h2>
+                        <h5 className="intro-subtitle">a product young designer with a passion for blending technology and art.</h5>
                     </div>
                 </div>
         </div>
