@@ -1,5 +1,3 @@
-// import cover from '../img/p1/Cover.png'
-
 const CompData = [
         {
             li1:"Problem",

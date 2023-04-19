@@ -179,24 +179,24 @@ border: none !important;
 
 .project-card{
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 8px;
     box-sizing: border-box;
     margin: 3rem 0 3rem 0;
-    justify-content: space-between;
 }
 
 .project .project-img{
     display: flex;
     cursor: pointer;
     align-items: center;
+    justify-content: space-between;
     flex: 2;
 }
 
 .project-img img{
     display: flex;
     width: 90%;
-    border-radius: 12px;
+    height: auto;
     transition: all 0.2s ease-in-out;  
 }
   
@@ -340,7 +340,7 @@ border: none !important;
     background-attachment: scroll;
 }
 
-.test{
+.pro1-cover{
     background-image: url(./assets/img/p1/hero.png);
 }
 

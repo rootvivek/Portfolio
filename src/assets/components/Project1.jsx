@@ -32,7 +32,7 @@ import f18 from '../img/p1/f18.png'
 function Project1() {
   return (
     <div className="project_main">
-      <div className="test parallex pt-3">
+      <div className="pro1-cover parallex pt-3">
         <Navbar />
       </div>
       <C1 details = {CompData1} />

@@ -1,19 +1,16 @@
-import pdata1 from '../img/pdata1.jpg'
-// import pdata2 from '../img/pdata2.png'
-// import pdata3 from '../img/pdata3.jpg'
-// import pdata4 from '../img/pdata4.jpg'
+import cover1 from '../img/p1/Cover.png'
 
 const CardData = [
         {
-            img:pdata1,
-            title : "Ganpati Engineering Works",
+            img:cover1,
+            title : "VIRA",
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             vlink :  '/Project1'
         },
         {
-            img:pdata1,
+            img:"",
             title : "Speech Recognization",
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -21,7 +18,7 @@ const CardData = [
             vlink : "/Project2",
         },
         {
-            img:pdata1,
+            img:"",
             title : "Google - Design System for Ad Manager",
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -29,7 +26,7 @@ const CardData = [
             vlink : "/Project3",
         },
         {
-            img:pdata1,
+            img:"",
             title : "Google - Design System for Ad Manager",
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
