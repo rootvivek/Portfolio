@@ -20,6 +20,7 @@ function Card(props) {
                       <li className='subtitle-1'>{value.subtitle1}</li>
                       <li className='subtitle-2'>{value.subtitle2}</li>
                       <li className='subtitle-3'>{value.subtitle3}</li>
+                      <li className='subtitle-4'>{value.subtitle4}</li>
                     </ul>
                       <p className='card-btn mt-5'>
                         <Link className="project-btn h5" to={value.vlink} >Explore More</Link>
