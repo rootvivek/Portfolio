@@ -1,5 +1,6 @@
 import cover1 from '../img/p1/cover.png'
 import cover2 from '../img/p2/cover.png'
+import cover3 from '../img/p3/cover.png'
 
 const CardData = [
         {
@@ -19,8 +20,8 @@ const CardData = [
             vlink : "/Project2",
         },
         {
-            img:"cover2",
-            title : "Google - Design System for Ad Manager",
+            img:cover3,
+            title : "Vegan",
             subtitle1 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle2 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             subtitle3 : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",

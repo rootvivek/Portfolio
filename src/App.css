@@ -107,7 +107,7 @@ border: none !important;
     background-image: url(./assets/img/hero.jpg);
     background-position: 50% 50%;
     background-size: cover;
-    padding-top: 2rem;
+    padding-top: 24px;
     width: 100%;
 }
 
@@ -123,9 +123,9 @@ border: none !important;
 .hero .intro-text{
     font-family: 'Fraunces', serif;
     display: block;
-    letter-spacing: -3;
+    letter-spacing: 0;
     font-size: 64px;
-    line-height: 74px;
+    line-height: 80px;
 }
 
 .hero .intro-subtitle{
@@ -353,6 +353,10 @@ border: none !important;
 
 .pro2-cover{
     background-image: url(./assets/img/p2/cover.png);
+}
+
+.pro3-cover{
+    background-image: url(./assets/img/p3/cover.png);
 }
 
 .parallex{

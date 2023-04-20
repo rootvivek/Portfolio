@@ -22,13 +22,10 @@ const CompData = [
             subtitle3:"What if there was an effective digital method of coping with mental health?",
             title2:"Role",
             subtitle4:"Research, UI/UX",
-            subtitle5:"",
             title3:"Duration",
-            subtitle6:"4 Weeks",
-            subtitle7:"",
+            subtitle5:"4 Weeks",
             title4:"Software",
-            subtitle8:"Figma,illustrator",
-            subtitle9:"",
+            subtitle6:"Figma,illustrator",
             img1:"",
         }
     ]

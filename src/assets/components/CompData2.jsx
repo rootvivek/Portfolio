@@ -22,13 +22,10 @@ const CompData = [
             subtitle3:"",
             title2:"Role",
             subtitle4:"Product Designer",
-            subtitle5:"",
             title3:"Duration",
-            subtitle6:"June 2020 - Oct 2020 (4 months)",
-            subtitle7:"",
+            subtitle5:"June 2020 - Oct 2020 (4 months)",
             title4:"Software",
-            subtitle8:"Invision, Figma, Usability Hub, Optimal Workshop, Photoshop",
-            subtitle9:"",
+            subtitle6:"Invision, Figma, Usability Hub, Optimal Workshop, Photoshop",
             img1:"",
         }
     ]

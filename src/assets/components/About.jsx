@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 
 function About() {
   return (
-    <div className="background">
-      <div className="container pt-4">
+    <div className="background pt-4">
+      <div className="container">
         <Navbar/>
         <div className="about">
             <div className="col-lg-3 about-img">

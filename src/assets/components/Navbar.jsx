@@ -4,7 +4,6 @@ import vk_resume from "../resume.pdf";
 
 function Navbar() {
   return (
-    <div className ="container">
       <nav className ="navbar navbar-expand-lg navbar-light">
           <NavLink className ="navbar-brand t2 ps-3 text-dark" to='/'>Vimal Kumar </NavLink>
             <button className ="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +28,6 @@ function Navbar() {
               </div>
           </div>
    </nav>
-  </div>
   )
 }
 

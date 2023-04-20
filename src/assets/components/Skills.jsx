@@ -63,7 +63,7 @@ function skills(props) {
                     </div>
                      <div className="skills-main">
                         <img src={adobephotoshop} className="skills-img" alt='adobe-photoshop' />
-                        <p className='skills-title'>Adobe Photoshop</p>
+                        <p className='skills-title'>Photoshop</p>
                         <p className='skills-subtitle'>Intermediate</p>
                     </div> 
                     <div className="skills-main">

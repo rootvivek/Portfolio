@@ -48,17 +48,14 @@ function C1(props){
                           <div className="col">
                             <h4 className='t2'>{value.title2}</h4>
                             <p>{value.subtitle4}</p>
-                            <p>{value.subtitle5}</p>
                           </div>
                           <div className="col">
                             <h4 className='t2'>{value.title3}</h4>
-                            <p>{value.subtitle6}</p>
-                            <p>{value.subtitle7}</p>
+                            <p>{value.subtitle5}</p>
                           </div>
                           <div className="col">
                             <h4 className='t2'>{value.title4}</h4>
-                            <p>{value.subtitle8}</p>
-                            <p>{value.subtitle9}</p>
+                            <p>{value.subtitle6}</p>
                           </div>
                         </div>
                       </div>

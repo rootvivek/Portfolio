@@ -8,6 +8,7 @@ function C2(props) {
               <p>{props.subtitle1}</p>
               <p>{props.subtitle2}</p>
               <p>{props.subtitle3}</p>            
+              <p>{props.subtitle4}</p>            
               <img src={props.img} alt="" />
       </div>              
        )

@@ -37,7 +37,9 @@ function Project1() {
   return (
     <div className="project_main">
       <div className="pro1-cover parallex pt-3">
-        <Navbar />
+        <div className="container">
+          <Navbar />
+        </div>
       </div>
       <C1 details = {CompData1} />
        <div className="pro-0">
