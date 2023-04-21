@@ -13,16 +13,19 @@ function Card(props) {
                   <img src={value.img} alt="" />
                  </div>
               </div>
-              <div className="col-5">
+              <div className="col-5 pe-5">
                  <div className="project-title">
-                    <h4 className='t0'>{value.title}</h4>
+                  <div className="pro-title d-flex align-item-center">
+                     <h4 className='t0'>{value.title}</h4>
+                     <p className='pro-title2'>{value.title2}</p>
+                  </div>
                     <ul>
                       <li className='subtitle-1'>{value.subtitle1}</li>
                       <li className='subtitle-2'>{value.subtitle2}</li>
                       <li className='subtitle-3'>{value.subtitle3}</li>
                       <li className='subtitle-4'>{value.subtitle4}</li>
                     </ul>
-                      <p className='card-btn mt-5'>
+                      <p className='card-btn mt-4'>
                         <Link className="project-btn h5" to={value.vlink} >Explore More</Link>
                       </p>
                   </div>  

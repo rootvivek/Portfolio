@@ -6,6 +6,7 @@ const CardData = [
         {
             img:cover1,
             title : "VIRA",
+            title2 : "Mental health App",
             subtitle1 : "Researched mental health support and available technology",
             subtitle2 : "Identified need for humanized approach",
             subtitle3 : "Developed user-centered design solution using digital technology",
@@ -15,6 +16,7 @@ const CardData = [
         {
             img:cover2,
             title : "Investogram",
+            title2 : "Finance App",
             subtitle1 : "Developed user personas and journeys",
             subtitle2 : "Collaborated with stakeholders to define features and functionality",
             subtitle3 : "Created wireframes and prototypes to test UI/UX design",
@@ -24,9 +26,11 @@ const CardData = [
         {
             img:cover3,
             title : "Vegan",
+            title2 : "Restaurant App",
             subtitle1 : "Researched restaurant industry and user needs in booking",
             subtitle2 : "Designed user-centered solution for seamless booking experience",
             subtitle3 : "Created clean and intuitive UI aligned with industry values",
+            subtitle4 : "Created wireframes and prototypes to test UI/UX design",
             vlink : "/Project3",
         }
     ]
