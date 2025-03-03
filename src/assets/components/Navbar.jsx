@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link,NavLink } from 'react-router-dom'
-import vk_resume from "../resume.pdf";
+import vk_resume from "../Resume.pdf";
 
 function Navbar() {
   return (
